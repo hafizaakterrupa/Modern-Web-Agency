@@ -112,8 +112,20 @@ p{
 
 .users-containar{
     display: flex;
-    gap: 10px;
+    gap: 24px;
+    text-align: center;
+}
+.designers{
+    text-align: center;
+
+    
+}
+.users{
+    text-align: center;
 
 }
 
+.section title{
+    text-align: center;
+}
 
