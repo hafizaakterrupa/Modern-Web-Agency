@@ -51,6 +51,10 @@ nav ul li{
     background-image: url("../Assets/Hero-bg.png");
      max-width: 1140px;
     margin: 0 auto;
+    
+}
+body{
+    background-color: #f5f8ff;
 }
 .live-btn{
 
@@ -187,6 +191,36 @@ ul{
     justify-content: space-between;
     align-items: center;
 }
+.Touch{
+    font-size: 92px;
+    font-weight: 800px;
+}
+.name input[type="email"],input[type="text"], text area{
+    display: block; font-size: medium;
+}
+
+.get-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding:5px 10px ;
+    border-radius: 5px;
+    width: 65%;
+}
+label{
+    display: block;
+    font-size: 20px;
+}
+input{
+    height:55px ;
+    width: 400px;
+    font-size: 16px;
+
+}
+ 
+ 
+
+
 
 
 
