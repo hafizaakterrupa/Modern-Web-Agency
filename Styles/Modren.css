@@ -8,6 +8,7 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  background-color: hwb(248 94% 0%);
 }
 
 
@@ -34,7 +35,7 @@ nav ul li{
     margin:0px;
     border: none;
 }
-.stay-btn{
+.stay-btn  .free{
     background-color: blue;
     color: white;
     border: none;
@@ -48,6 +49,8 @@ nav ul li{
 }
 .hero{
     background-image: url("../Assets/Hero-bg.png");
+     max-width: 1140px;
+    margin: 0 auto;
 }
 .live-btn{
 
@@ -61,17 +64,21 @@ nav ul li{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 200px 328px;
+    
     gap: 10px;
+    
+
 }
+
 .bold{
     font-size: 80px;
 }
 .cool{
-    font-weight: 900;
+    font-weight: bold;
+    font-size: 80px;
 }
-.imgmini{
-    border-radius: 5px;
+.imgmini img{
+    border-radius: 15px;
 }
 p{
     color: #555
@@ -108,24 +115,81 @@ p{
     display: flex;justify-content: center;
     gap: 50px;
 }
-
-
-.users-containar{
+.hafiza-flex{
     display: flex;
-    gap: 24px;
-    text-align: center;
+    align-content: center;
 }
-.designers{
+.parants{
+    display: flex;
+    justify-content: space-between;
+    gap: 40;
+    padding: ;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.hafiza-main-title{
+    
     text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
 
+ul li{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+ul{
+    display: flex; 
+    justify-content: center;
+    gap: 50px;
+    color: #555;
+}
+.foot{
+     max-width: 1140px;
+    margin: 0 auto;
+}
+.Logo{
+    text-align: center;
+    font-size:80px ;
+    font-weight: bold;
+    color: #007bff;
     
 }
-.users{
+.muna{
     text-align: center;
+    background-color: #ffffff;
+    padding: 151px 71px;
+    border-radius: 16px;
+}
+.muna-title{
+    font-size: 50px;
+}
+.free{
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    color: white;
 
 }
-
-.section title{
+.big-png img{
+    border-radius: 20px;
+}
+.online{
     text-align: center;
 }
+.lets-get{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
 
